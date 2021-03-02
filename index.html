@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Room</title>
+</head>
+<body>
+
+    <div id="videoSection">
+        <div id="videoRow">
+            <video id="localVideo" autoplay muted playsinline></video>
+        </div>
+        <div id="videoMain">
+            <video id="bigVideo" autoplay muted playsinline></video>
+            <button id="videoButton">HIDE</button>
+            <button id="audioButton">MUTE</button>
+            <button id="screenshareButton">SCREENSHARE</button>
+        </div>
+    </div>
+
+    <div id="chatSection">
+        <div id="chat"></div>
+        <input id="chatMessageInput" type="text">
+        <button id="sendChatMessageButton">SEND</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
